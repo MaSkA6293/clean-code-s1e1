@@ -42,14 +42,14 @@ body {
   margin: 0 auto 0;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input, button {
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -133,12 +133,12 @@ input[type="text"]:focus {
 
 /* Edit Task */
 .list-item__input {
-  display:none
+  display: none
 }
 .list-item__input-edit {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 .list-item__label-edit {
-  display:none;
+  display: none;
 }
