@@ -34,7 +34,7 @@ var createNewTaskElement=function(taskString){
 
     label.innerText=taskString;
     label.className='task list-item__label';
-
+    deleteButtonImg.setAttribute("alt","remove");
     //Each elements, needs appending
     listItem.className="list__item list-item"
 
