@@ -87,6 +87,7 @@ input[type="text"] {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  width: 220px;
 }
 input[type="text"]:focus {
   color: #333;
