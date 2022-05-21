@@ -36,6 +36,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.classList.add(...["btn", "btn-delete"])
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButtonImg.classList.add("btn-img-del")
+    deleteButtonImg.setAttribute("alt","remove")
     label.innerText=taskString;
 
     //Each elements, needs appending
