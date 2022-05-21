@@ -132,7 +132,7 @@ button{
 }
 
 /* Completed */
-.item__label-completed {
+#main__completed-tasks .item__label{
   text-decoration: line-through;
   color: #888;
 }
